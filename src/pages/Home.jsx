@@ -1,6 +1,7 @@
 import React from "react";
 import main from "../assets/hero.jpg";
 import { Link } from "react-router-dom";
+import Transition from "../Transition";
 
 const Home = () => {
   return (
@@ -42,4 +43,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Transition(Home);

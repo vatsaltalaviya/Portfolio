@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import pro1 from "../assets/pro1.png";
 import pro2 from "../assets/pro2.png";
 import pro3 from "../assets/pro3.png";
+import Transition from "../Transition";
 
 const Project = () => {
 
@@ -55,4 +56,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Transition(Project);

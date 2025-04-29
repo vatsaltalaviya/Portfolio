@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Transition from "../Transition";
 
 const Contact = () => {
   return (
@@ -51,4 +52,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Transition(Contact);

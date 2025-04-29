@@ -1,4 +1,6 @@
 import React from "react";
+import Transition from "../Transition";
+
 
 const Aboutme = () => {
   const skills = [
@@ -64,4 +66,4 @@ const Aboutme = () => {
   );
 };
 
-export default Aboutme;
+export default Transition(Aboutme);

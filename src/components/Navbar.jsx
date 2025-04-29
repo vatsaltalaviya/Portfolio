@@ -6,7 +6,7 @@ const Navbar = () => {
 
     const [isShow, setisShow] = useState(false)
   return (
-    <header className='bg-zinc-950 fixed z-50 top-0 w-full px-10'>
+    <header className='bg-zinc-950 fixed top-0 w-full px-10'>
         <nav className='flex  justify-between text-white text-3xl'>
             <div className='px-0 md:px-4 py-2.5'>
                 <NavLink to='/'><img className='w-32 md:w-56' src={logo} alt="" /></NavLink>
