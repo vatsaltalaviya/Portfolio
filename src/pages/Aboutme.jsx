@@ -44,7 +44,7 @@ const Aboutme = () => {
               <li className="mt-3">
                 <h1 className="text-xl font-semibold">H.S.C</h1>
                 <h3 className="text-xl font-medium">
-                  Shisumandir High School,
+                  Shisumandir secondary High School,
                 </h3>
                 <h4 className="text-sm">03/2022</h4>
               </li>
