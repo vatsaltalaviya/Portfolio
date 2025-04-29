@@ -5,7 +5,10 @@
   font-family: 'Outfit', sans-serif;
 }
 body{
-  @apply bg-zinc-950
+  @apply bg-[#020617]
+}
+.scroll::-webkit-scrollbar{
+  display: none;
 }
 
 .active li{
@@ -19,7 +22,7 @@ body{
   width: 100%;
   height: 100vh;
   transform-origin: bottom;
-  background: #c5d6c6;
+  background: #07011f;
 }
 
 .slide-out{
@@ -29,5 +32,5 @@ body{
   width: 100%;
   height: 100vh;
   transform-origin: top;
-  background: #c5d6c6;
+  background: #07011f;
 }

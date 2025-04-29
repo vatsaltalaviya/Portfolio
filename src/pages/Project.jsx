@@ -31,9 +31,9 @@ const Project = () => {
 
     ]
   return (
-    <div className="py-20 px-20 w-full mt-10 bg-zinc-950 text-white flex flex-col justify-center items-center">
+    <>
       <div className="w-full md:w-2xl flex flex-col justify-center gap-5">
-        <h1 className="text-6xl text-center py-8">Projects</h1>
+        <h1 className="text-4xl text-center py-8">Projects</h1>
         {projects.map((project, index) => (
             <Link key={index} to={project.url}>
             <div className="md:w-full border rounded p-2 flex flex-col md:flex-row">
@@ -52,7 +52,7 @@ const Project = () => {
         ))}
         
       </div>
-    </div>
+    </>
   );
 };
 
