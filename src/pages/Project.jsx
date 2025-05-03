@@ -22,7 +22,7 @@ const Project = () => {
         desc:"Prescripto is a sleek healthcare frontend built with React and Tailwind CSS.It streamlines appointment booking and prescription viewing with a clean, user-friendly interface."
     },
     {
-        name: "Pin My Trip",
+        name: "Weather App",
         info:"Weather App",
         url: "https://weather-app-rosy-ten-69.vercel.app/",
         img: pro3,
