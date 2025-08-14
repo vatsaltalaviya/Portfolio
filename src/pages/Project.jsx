@@ -3,11 +3,19 @@ import { Link } from "react-router-dom";
 import pro1 from "../assets/pro1.png";
 import pro2 from "../assets/pro2.png";
 import pro3 from "../assets/pro3.png";
+import pro4 from "../assets/pro4.png";
 import Transition from "../Transition";
 
 const Project = () => {
 
-    const projects = [{
+    const projects = [
+      {
+        name: "RupeeRoot",
+        info:"Finance Traking Website",
+        url: "https://rupeeroot.vercel.app/",
+        img: pro4,
+        desc:"RupeeRoot is a modern and user-friendly financial platform designed to help individuals and businesses manage their money efficiently. It offers tools for expense tracking, budgeting, and income management, making it easier to stay on top of financial goals."
+    },{
         name: "Pin My Trip",
         info:"Tour booking Website Design",
         url: "https://pin-my-trip.vercel.app/",
@@ -28,6 +36,7 @@ const Project = () => {
         img: pro3,
         desc:"Weather-App is a responsive React-based app that shows real-time weather using the OpenWeatherMap API.Users can search any city to view current temperature, humidity, and dynamic weather icons."
     }
+    
 
     ]
   return (
