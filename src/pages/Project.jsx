@@ -44,7 +44,7 @@ const Project = () => {
       <div className="w-full md:w-2xl flex flex-col justify-center gap-5">
         <h1 className="text-4xl text-center py-8">Projects</h1>
         {projects.map((project, index) => (
-            <Link key={index} to={project.url}>
+            <Link key={index} target="_blank" to={project.url}>
             <div className="md:w-full border rounded p-2 flex flex-col md:flex-row">
               <div className=" w-full md:w-1/2 h-full rounded p-1.5 border">
                 <img className="w-full rounded" src={project.img} alt="" />
