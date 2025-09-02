@@ -28,7 +28,8 @@ const Home = () => {
             online.
           </p>
           <div className="pt-5 flex md:flex-col lg:flex-row flex-col justify-start gap-3 items-center">
-            <a href="/Vatsal-TalaviyaCV.pdf" download className="bg-white text-black px-5 py-3 rounded cursor-pointer"><FlipAnimation>Download CV</FlipAnimation></a>
+{/*             <a href="/Vatsal-TalaviyaCV.pdf" download className="bg-white text-black px-5 py-3 rounded cursor-pointer"><FlipAnimation>Download CV</FlipAnimation></a> */}
+             <a href="https://drive.google.com/file/d/1HJw9QNiD_PZvu-7qgmAWI_oF6dF4oZfa/view" download className="bg-white text-black px-5 py-3 rounded cursor-pointer"><FlipAnimation>Download CV</FlipAnimation></a>
             <div className="rounded flex  flex-col md:flex-row justify-start ml-0 md:ml-5 border">
               <span className="bg-white text-black px-12 md:px-5 py-3 rounded">Contact</span>
               <ul className="px-3 py-3 md:py-0 md:px-5 flex flex-col md:flex-row items-center justify-start gap-5">
