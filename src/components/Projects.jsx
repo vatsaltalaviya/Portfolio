@@ -104,7 +104,7 @@ const Projects = () => {
                       </div>
 
                       <div className="pt-3 flex items-center justify-between text-[10px] uppercase tracking-widest text-[#77746E]">
-                        <span>PLATE // {projectNumber}</span>
+                        <span>{projectNumber}</span>
                         <span>{project.info}</span>
                       </div>
                     </a>
