@@ -106,10 +106,10 @@ const Hero = () => {
             <div className="pt-6 border-t border-[#DAD7D0] space-y-6">
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
                 <a
-                  href="https://drive.google.com/file/d/1HJw9QNiD_PZvu-7qgmAWI_oF6dF4oZfa/view"
+                  href="/Vatsal%20Talaviya%20Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  download="Vatsal-TalaviyaCV.pdf"
+                  download="Vatsal Talaviya Resume.pdf"
                   className="group inline-flex items-center justify-center gap-3 bg-[#202020] text-[#F7F6F2] hover:bg-[#873D42] px-7 py-4 border border-[#202020] hover:border-[#873D42] text-xs uppercase tracking-widest font-medium transition-all duration-300"
                 >
                   <FlipAnimation>Download CV</FlipAnimation>

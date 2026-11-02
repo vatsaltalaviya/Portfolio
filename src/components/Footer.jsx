@@ -115,8 +115,8 @@ const Footer = ({ onNavigate }) => {
             </ul>
           </div>
 
-          {/* Back to Top */}
-          <div className="md:col-span-3 flex md:justify-end items-start">
+          {/* Back to Top & Resume */}
+          <div className="md:col-span-3 flex flex-col md:items-end items-start gap-3">
             <button
               onClick={scrollToTop}
               className="inline-flex items-center gap-2 px-5 py-3 border border-[#DAD7D0] bg-[#F7F6F2] text-[#202020] hover:bg-[#202020] hover:text-[#F7F6F2] hover:border-[#202020] text-xs uppercase tracking-widest font-medium transition-all duration-300 group"
@@ -124,6 +124,16 @@ const Footer = ({ onNavigate }) => {
               <span>Back to Top</span>
               <i className="ri-arrow-up-line transition-transform group-hover:-translate-y-1"></i>
             </button>
+            <a
+              href="/Vatsal%20Talaviya%20Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Vatsal Talaviya Resume.pdf"
+              className="inline-flex items-center gap-1.5 text-xs uppercase tracking-wider text-[#77746E] hover:text-[#873D42] font-mono transition-colors pt-1"
+            >
+              <span>Download PDF Resume</span>
+              <i className="ri-download-line"></i>
+            </a>
           </div>
         </div>
 

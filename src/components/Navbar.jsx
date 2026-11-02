@@ -105,9 +105,10 @@ const Navbar = ({ activeSection = "home", onNavigate }) => {
 
           {/* Quick CTA */}
           <a
-            href="https://drive.google.com/file/d/1HJw9QNiD_PZvu-7qgmAWI_oF6dF4oZfa/view"
+            href="/Vatsal%20Talaviya%20Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            download="Vatsal Talaviya Resume.pdf"
             className="hidden lg:inline-flex items-center gap-2 px-4 py-2 border border-[#202020] text-xs uppercase tracking-wider font-medium text-[#202020] hover:bg-[#873D42] hover:border-[#873D42] hover:text-[#F7F6F2] transition-all duration-200"
           >
             <span>Resume</span>
@@ -169,9 +170,10 @@ const Navbar = ({ activeSection = "home", onNavigate }) => {
 
           <div className="pt-4 border-t border-[#DAD7D0] flex items-center justify-between text-xs text-[#77746E]">
             <a
-              href="https://drive.google.com/file/d/1HJw9QNiD_PZvu-7qgmAWI_oF6dF4oZfa/view"
+              href="/Vatsal%20Talaviya%20Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              download="Vatsal Talaviya Resume.pdf"
               className="text-[#202020] font-medium hover:text-[#873D42] flex items-center gap-1 uppercase tracking-wider"
             >
               <span>Download CV</span>
