@@ -1,36 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
 
-*{
-  font-family: 'Outfit', sans-serif;
-}
-body{
-  @apply bg-[#020617]
-}
-.scroll::-webkit-scrollbar{
-  display: none;
+@theme {
+  --font-serif: "Instrument Serif", "Playfair Display", Georgia, serif;
+  --font-display: "Playfair Display", "Instrument Serif", Georgia, serif;
+  --font-sans: "Manrope", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-primary-bg: #F7F6F2;
+  --color-secondary-bg: #EFEDE7;
+  --color-primary-text: #202020;
+  --color-secondary-text: #77746E;
+  --color-accent: #873D42;
+  --color-border-hairline: #DAD7D0;
 }
 
-.active li{
-  @apply opacity-100
+:root {
+  --bg-primary: #F7F6F2;
+  --bg-secondary: #EFEDE7;
+  --text-primary: #202020;
+  --text-secondary: #77746E;
+  --accent: #873D42;
+  --border-hairline: #DAD7D0;
 }
 
-.slide-in{
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  transform-origin: bottom;
-  background: #07011f;
+html {
+  scroll-behavior: smooth;
+  background-color: #F7F6F2;
 }
 
-.slide-out{
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  transform-origin: top;
-  background: #07011f;
+body {
+  background-color: #F7F6F2;
+  color: #202020;
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Explicit font utility classes for guaranteed availability */
+.font-serif {
+  font-family: "Instrument Serif", "Playfair Display", Georgia, serif;
+}
+
+.font-display {
+  font-family: "Playfair Display", "Instrument Serif", Georgia, serif;
+}
+
+.font-sans {
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Custom editorial selection */
+::selection {
+  background-color: #873D42;
+  color: #F7F6F2;
+}
+
+/* Refined custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F6F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #DAD7D0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #873D42;
 }

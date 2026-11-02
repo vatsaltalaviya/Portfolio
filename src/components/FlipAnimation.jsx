@@ -1,35 +1,36 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const FlipAnimation = ({ children}) => {
+const FlipAnimation = ({ children, className = "" }) => {
   return (
-    <motion.p
+    <motion.span
       initial="initial"
       whileHover="hovered"
-      download
-      className="whitespace-nowrap text-center relative block overflow-hidden uppercase"
-     
+      className={`relative inline-block overflow-hidden align-middle leading-tight ${className}`}
     >
       <motion.span
-      className="inline-block"
+        className="inline-block"
         variants={{
           initial: { y: 0 },
           hovered: { y: "-100%" },
         }}
+        transition={{ duration: 0.35, ease: [0.33, 1, 0.68, 1] }}
       >
         {children}
       </motion.span>
 
       <motion.span
+        aria-hidden="true"
         className="absolute inset-0 inline-block"
         variants={{
           initial: { y: "100%" },
           hovered: { y: 0 },
         }}
+        transition={{ duration: 0.35, ease: [0.33, 1, 0.68, 1] }}
       >
         {children}
       </motion.span>
-    </motion.p>
+    </motion.span>
   );
 };
 
